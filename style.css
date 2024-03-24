@@ -1,0 +1,36 @@
+/* header Start */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.06);
+    background-color: #e3e6f3;
+    border-radius: 20px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+#title{
+    padding-right: 500px;
+    color: #088178;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: green;
+}
+
